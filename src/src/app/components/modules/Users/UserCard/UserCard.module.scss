@@ -1,0 +1,12 @@
+.user__card {
+    height: 408px;
+    &__video {
+        height: 100%;
+    }
+    @media screen and (max-width: 1300px) and (min-width: 1024px) {
+    }
+    video {
+        max-height: 100%;
+        overflow: hidden;
+    }
+}

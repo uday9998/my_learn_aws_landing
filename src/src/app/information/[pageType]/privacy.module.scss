@@ -1,0 +1,10 @@
+.wrapper {
+    background-image: url(../../../app/assets/images/privacyHero.png);
+    background-size: cover;
+}
+
+.treat__wrapper {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}

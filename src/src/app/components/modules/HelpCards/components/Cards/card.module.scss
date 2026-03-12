@@ -1,0 +1,132 @@
+.card__wrapper {
+    padding: 13px;
+    border-radius: 12px;
+    transition: .2s ease;
+    width: 400px;
+    background: #FAFCFC;
+
+    @media (max-width: 1900px) {
+        width: 300px;
+    }
+
+    @media (max-width: 1350px) {
+        width: 250px;
+    }
+
+    @media (max-width: 1160px) {
+        width: 200px;
+    }
+
+    @media (max-width: 1024px) {
+        width: 346px;
+    }
+
+    @media (max-width: 375px) {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // &:hover {
+    //     background-color: #24554E;
+
+    //     .image__wrapper {
+    //         overflow: hidden;
+    //         img {
+    //             transform: scale(1.1);
+    //         }
+    //     }
+
+    //     span {
+    //         color: #fff;
+    //     }
+    // }
+
+    
+
+    .image__wrapper {
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+    }   
+
+    .texts__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            span:first-child {
+                font-size: 20px;
+            }
+        }
+
+        .subtitle__wrapper {
+            width: 389px;
+            height: 100px;
+
+            span {
+                font-family: 'Fixel Regular', sans-serif;
+            }
+
+            @media (max-width: 1900px) {
+                width: 260px;
+
+                span {
+                    font-size: 18px;
+                }
+            }
+
+            @media (max-width: 1350px) {
+                width: 220px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+
+            @media (max-width: 1160px) {
+                width: 175px;
+            }
+
+            @media (max-width: 1024px) {
+                width: 309px;
+
+                span {
+                    font-size: 20px;
+                    line-height: 153%;
+                }
+            }
+        }
+    }
+
+    .button__wrapper {
+        @media (min-width: 1025px) {
+            margin-top: 32px;
+        }
+        button {
+            background-color: #fff;
+            font-family: 'Fixel Medium', sans-serif;
+        }
+    }
+
+    
+}
+
+.btn_flex {
+    display: flex !important;
+    gap: 14px;
+    color: #36796F;
+    font-size: 16px;
+    font-weight: 800;
+}
+.btn_flex  svg {
+    margin-top: 3px;
+}

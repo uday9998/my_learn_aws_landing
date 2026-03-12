@@ -1,0 +1,26 @@
+.links__wrapper {
+    background-image: url(../../../../../assets/images/features/ai/mobile__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 48px 24px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    margin-top: 40px;
+
+    .icon__wrapper {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        transform: rotate(-13deg);
+    }
+    
+    span {
+        font-size: 18px;
+        font-family: 'Fixel Variable', sans-serif;
+        font-weight: 600;
+    }
+}

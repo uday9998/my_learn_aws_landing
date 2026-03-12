@@ -1,0 +1,26 @@
+.customer__section__wrapper {
+    background: url(../../../../assets/images/customers.png);
+    backgroundSize: 100% 100%;
+    backgroundPosition: center
+}
+
+.customer {
+    width: 310px;
+    height: 490px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.customer__section {
+    .modal__content {
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Product",
+        "links": [
+            {
+                "link": "/how-it-works",
+                "title": "How It Works"
+            },
+            {
+                "link": "/pricing",
+                "title": "Pricing"
+            },
+            {
+                "link": ".",
+                "title": "Features",
+                "state": {
+                    "isOpenFeatures": true
+                }
+            },
+            {
+                "link": "/login",
+                "title": "Login",
+                "state": {
+                    "isFromReset": true
+                }
+            },
+            {
+                "link": "https://get.miestro.com/competitors",
+                "title": "Compare"
+            }
+        ]
+    },
+    {
+        "title": "Resources",
+        "links": [
+            {
+                "link": "https://blog.miestro.com/",
+                "title": "Blog",
+                "outside": true
+            },
+            {
+                "link": "https://miestrouniversity.miestro.com/portal/onlinecourse",
+                "title": "Miestro University",
+                "outside": true
+            },
+            {
+                "link": "https://www.facebook.com/groups/miestro",
+                "title": "Facebook Community",
+                "outside": true
+            },
+            {
+                "link": "https://training.miestro.com/demo",
+                "title": "Demo"
+            },
+            {
+                "link": "https://training.miestro.com/guides",
+                "title": "Ebooks & Guides",
+                "outside": true
+            }
+        ]
+    },
+    {
+        "title": "Company",
+        "links": [
+            {
+                "link": "https://careers.miestro.com/",
+                "title": "Careers",
+                "outside": true
+            },
+            {
+                "link": "/about-us",
+                "title": "About Us"
+            },
+            {
+                "link": "https://affiliate.miestro.com/",
+                "title": "Become an Affilate",
+                "outside": true
+            },
+            {
+                "link": "/information/privacy",
+                "title": "Privacy Policy"
+            },
+            {
+                "link": "/information/terms",
+                "title": "Terms of Service"
+            }
+        ]
+    },
+    {
+        "title": "Help",
+        "links": [
+            {
+                "link": "https://support.miestro.com",
+                "title": "Contact Us",
+                "outside": true
+            },
+            {
+                "link": "https://support.miestro.com",
+                "title": "Help Desk",
+                "outside": true
+            },
+            {
+                "link": "https://app.loopedin.io/miestro-20",
+                "title": "Roadmap",
+                "outside": true
+            }
+        ]
+    }
+]

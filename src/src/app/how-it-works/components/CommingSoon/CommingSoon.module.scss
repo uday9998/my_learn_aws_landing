@@ -1,0 +1,11 @@
+.mobile__text__wrapper {
+    @media (min-width: 1025px) {
+        display: none;
+    }
+}
+
+.desktop__text__wrapper {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}

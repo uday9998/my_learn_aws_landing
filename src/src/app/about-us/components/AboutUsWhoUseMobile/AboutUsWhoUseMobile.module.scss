@@ -1,0 +1,27 @@
+.who__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    background-image: url(../../../assets/images/aboutus/mobile__bg__wrapper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px 80px 20px;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 0;
+    }
+
+    .text__wrapper {
+        padding: 25px 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        transform: rotate(5deg);
+        width: 322px;
+
+        span {
+            font-size: 24px !important;
+            font-family: 'Fixel Variable',  sans-serif;
+        }
+    }
+}

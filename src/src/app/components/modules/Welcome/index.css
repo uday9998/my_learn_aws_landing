@@ -1,0 +1,13 @@
+
+@media (max-width: 1024px) {
+    .col-flex {
+        flex-direction: column !important;
+    }
+    .video-mobile {
+        left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .flex-col img {
+        width: 100% ;
+    }
+}

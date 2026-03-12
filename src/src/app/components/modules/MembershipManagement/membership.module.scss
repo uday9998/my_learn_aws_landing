@@ -1,0 +1,343 @@
+.membership__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    padding: 80px 133px;
+    background-color: #f8fafa;
+
+    @media (max-width: 1024px) {
+        padding: 0 0 40px 0;
+    }
+
+    .texts__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            margin-top: 20px;
+            width: 320px;
+            span {
+                font-size: 28px;
+                letter-spacing: -1px;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            width: 900px;
+            span {
+                font-size: 52px;
+                letter-spacing: -1px;
+            }
+        }
+    }
+
+    .images__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media (max-width: 1024px) {
+            width: 350px;
+        }
+
+        .top__image__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+
+            .first__block {
+                border-radius: 12px;
+                padding: 30px 25px;
+                background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                url(../../../assets/images/dashboard/guard.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 864px;
+                height: 344px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+
+                span {
+                    font-family: 'Fixel Bold', sans-serif;
+                    color: #fff;
+                    width: 100px;
+                    margin-top: 30px;
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                .subtitle__wrapper {
+                    width: 350px;
+
+                    span {
+                        font-family: 'Fixel regular', sans-serif;
+                        color: #fff;
+                        line-height: 153%;
+                        width: 348px;
+                        margin-top: 0;
+                        font-size: 20px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        width: 243px;
+
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                @media (max-width: 1600px) {
+                    width: 600px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1100px) {
+                    width: 525px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                    url(../../../assets/images/dashboard/guardmobile.png);
+                    background-position: top;
+                    height: 410px;
+                }
+
+                @media (max-width: 450px) {
+                    padding: 10px 15px;
+                    background-position: left;
+                }
+            }
+
+            .second__block {
+                border-radius: 12px;
+                padding: 30px 25px;
+                background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url(../../../assets/images/dashboard/cardtwo.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 565px;
+                height: 344px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+
+                
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                    url(../../../assets/images/dashboard/cardtwomobile.png);
+                    background-position: top;
+                    height: 410px;
+                }
+
+                span {
+                    font-family: 'Fixel Bold', sans-serif;
+                    color: #fff;
+                    font-size: 40px;
+                    line-height: 50px;
+                    width: 100px;
+                    margin-top: 30px;
+                }
+
+                .subtitle__wrapper {
+                    width: 350px;
+
+                    span {
+                        font-family: 'Fixel regular', sans-serif;
+                        color: #fff;
+                        line-height: 153%;
+                        font-size: 20px;
+                        width: 350px;
+                        margin-top: 0;
+                    }
+
+                    @media (max-width: 1024px) {
+                        width: 318px;
+                       
+
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                    
+                }
+
+                @media (max-width: 1300px) {
+                    width: 420px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    background-position: bottom;
+                }
+                
+                @media (max-width: 450px) {
+                    padding: 10px 15px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                flex-direction: column;
+            }
+        }
+
+        .bottom__images__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+
+            .bottom__first__block {
+                background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                url(../../../assets/images/dashboard/cardthree.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 566px;
+                height: 344px;
+                border-radius: 12px;
+                padding: 30px 25px;
+
+                span {
+                    font-family: 'Fixel Bold', sans-serif;
+                    color: #fff;
+                    font-size: 40px;
+                    line-height: 50px;
+                    width: 100px;
+                    // margin-top: 30px;
+                }
+
+                .subtitle__wrapper {
+                    width: 320px;
+
+                    span {
+                        font-family: 'Fixel regular', sans-serif;
+                        color: #fff;
+                        line-height: 153%;
+                        font-size: 20px;
+                        margin-top: 0;
+                        width: 320px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                
+                @media (max-width: 1300px) {
+                    width: 420px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                    url(../../../assets/images/dashboard/cardthreemobile.png);
+                    background-position: top;
+                }
+
+                @media (max-width: 450px) {
+                    padding: 10px 15px;
+                }
+            }
+
+            .bottom__second__block {
+                background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                url(../../../assets/images/dashboard/cardfour.png);
+                border-radius: 12px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 864px;
+                height: 344px;
+                padding: 30px 25px;
+
+                span {
+                    font-family: 'Fixel Bold', sans-serif;
+                    color: #fff;
+                    font-size: 40px;
+                    line-height: 50px;
+                    width: 100px;
+                    // margin-top: 30px;
+                }
+
+                .subtitle__wrapper {
+                    width: 320px;
+
+                    span {
+                        font-family: 'Fixel regular', sans-serif;
+                        color: #fff;
+                        line-height: 153%;
+                        font-size: 20px;
+                        margin-top: 0;
+                        width: 320px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        width: 330px;
+
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                @media (max-width: 1600px) {
+                    width: 600px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1100px) {
+                    width: 525px;
+                    background-position: right;
+                }
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+                    url(../../../assets/images/dashboard/cardfour.png);
+                    background-position: left;
+                }
+
+                @media (max-width: 450px) {
+                    padding: 10px 15px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                flex-direction: column;
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        padding: 0;
+    }
+}

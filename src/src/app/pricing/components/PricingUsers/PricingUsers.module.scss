@@ -1,0 +1,27 @@
+.pricing__users__wrapper {
+    align-items: center;
+    background-color: rgb(244, 247, 247);
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .texts__wrapper {
+        .column__wrapper {
+            span {
+                font-size: 64px;
+
+                @media (max-width: 1024px) {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pricing_image_wrapper {
+        margin-right: 20vw;
+    }
+}

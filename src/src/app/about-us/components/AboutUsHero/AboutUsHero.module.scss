@@ -1,0 +1,95 @@
+.my__container {
+    display: flex;
+    justify-content: center;
+}
+
+.about__us__hero__text {
+    @media screen and (max-width: 1200px) {
+        font-size: 44px !important;
+    }
+
+    @media screen and (max-width: 1170px) {
+        font-size: 36px !important;
+    }
+}
+
+.about__us__hero__wrapper {
+    background-image: url(../../../assets//images/aboutUsBackground.png);
+    background-size: cover;
+    padding: 60px 80px 100px 80px;
+
+    @media (max-width: 1024px) {
+        padding: 80px 0 0 0;
+    }
+
+    .container__inner__wrapper {
+        max-width: 1280px;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+
+            & > div {
+                align-items: center;
+
+                div:last-child {
+                    width: 100%;
+
+                    button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .mobile__wrapper {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: block;    
+        }
+
+        span {
+            font-family: 'Fixel ExtraBold', sans-serif;
+        }
+    }
+
+    .desktop__wrapper {
+        display: block;
+
+        @media (max-width: 1024px) {
+            display: none;    
+        }
+
+        span {
+            font-family: 'Fixel ExtraBold', sans-serif;
+        }
+    }
+
+    .first__text__wrapper {
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            text-align: center;
+        }
+    }
+
+    .last__text__wrapper {
+        span {
+            font-family: 'SubFixel Variable', sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            text-align: center;
+        }
+    }
+}
+
+.btn__wrapper {
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+}

@@ -1,0 +1,44 @@
+.faq__pricing__wrapper {
+    @media (min-width: 1025px) {
+        padding-bottom: 120px;
+    }
+    @media (max-width: 1024px) {
+        padding-bottom: 40px;
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .mobile__text__wrapper {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: block;
+        }
+
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    }
+
+    .desktop__text__wrapper {
+        display: block;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    }
+}
+
+.title__wrapper {
+    @media (max-width: 1024px) {
+        text-align: center;
+    }
+
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}

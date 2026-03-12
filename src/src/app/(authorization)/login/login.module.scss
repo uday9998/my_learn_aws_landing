@@ -1,0 +1,10 @@
+.form__wrapper {
+    @media (min-width: 2000px) and (max-width: 2710px) {
+        gap: 410px;
+    }
+
+    @media (max-width: 1024px) {
+        gap: 40px;
+    }
+}
+

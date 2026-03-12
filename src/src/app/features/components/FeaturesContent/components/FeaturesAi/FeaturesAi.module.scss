@@ -1,0 +1,336 @@
+.main__wrapper {
+    @media (max-width: 1024px) {
+        padding: 80px 0;
+
+        & > div {
+            padding: 0 10px;
+
+            & > div {
+                gap: 52px;
+            }
+        }
+    }
+
+    .yourself__wrapper {
+        span:first-child {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    
+        span:nth-child(2) {
+            font-family: 'SubFixel Variable', sans-serif;
+        }
+    
+        @media (max-width: 1024px) {
+            span:first-child {
+                font-size: 36px;
+                text-align: center;
+            }
+        
+            span:nth-child(2) {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+
+    .baing__wrapper {
+        @media (max-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & > div {
+                padding: 0;
+
+                span {
+                    text-align: center;
+                }
+            }
+
+            .being__wrapper {
+                align-items: center;
+
+                .btn__wrapper {
+                    width: 100%;
+
+                    button {
+                        width: 100%;
+                    }
+                }
+
+                span:first-child {
+                    font-size: 36px;
+                }
+
+                span:nth-child(2) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.main__content__wrapper {
+    & > div {
+        @media (max-width: 1024px) {
+           padding: 0 10px; 
+        }
+    }
+    
+    .build__main__wrapper {
+        @media (max-width: 1024px) {
+             flex-direction: column;
+             padding-top: 35px;
+        }
+
+        & > div {
+            @media (max-width: 1024px) {
+                padding: 0;
+            }
+        }
+
+        .title__wrapper {
+            @media (max-width: 1024px) {
+                span {
+                    font-size: 36px;
+                }
+           }
+        }
+
+        .sub__text {
+            span {
+                @media (max-width: 1024px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .btn__wrapper {
+            @media (max-width: 1024px) {
+                width: 100%;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+     }
+}
+
+.being__wrapper {
+    span:first-child {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+
+    span:nth-child(2) {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+
+    .btn__wrapper {
+        button {
+            font-size: 16px;
+            font-family: 'Fixel Bold', sans-serif;
+        }
+    }
+}
+
+.build__wrapper {
+    .title__wrapper {
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    }
+
+    .sub__text {
+        span {
+            font-family: 'SubFixel Variable', sans-serif;
+        }
+    }
+
+    .btn__wrapper {
+        button {
+            font-size: 16px;
+            font-family: 'Fixel Bold', sans-serif;
+        }
+    }
+}
+
+.simple__wrapper {
+    .simple__titile__wrapper {
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    }
+
+    .sub__title__wrapper {
+        span {
+            font-family: 'SubFixel Variable', sans-serif;
+        }
+    }
+}
+
+.img__text__wrapper {
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+        text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+
+        span {
+            font-size: 16px;
+        }
+    }
+}
+
+.last__text__wrapper {
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+}
+
+.ultimate__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .ultimate__title__wrapper {
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+        }
+    }
+
+    .ultimate__subtitle__wrapper {
+        span {
+            font-family: 'SubFixel Variable', sans-serif;
+        }
+    }
+}
+
+.addition__text__wrapper {
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        span {
+            font-size: 16px;
+        }
+    }
+}
+
+.ultimate__footer__text__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
+.btn__wrapper {
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+}
+
+
+.beyond__main__wrapper {
+    .mobile__wrapper {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: block;
+        }
+    }
+
+    .desktop__wrapper {
+        display: block;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        padding: 80px 10px;
+
+        .simple__titile__wrapper {
+            text-align: center;
+
+            span {
+                font-size: 36px;
+            }
+        }
+
+        .sub__title__wrapper {
+            text-align: center;
+
+            span {
+                font-size: 16px;
+            }
+        }
+
+        .last__text__wrapper {
+            text-align: center;
+
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.ultimate__main__wrapper {
+    @media (max-width: 1024px) {
+        & > div {
+            padding: 0 10px;
+
+            & > div {
+                padding: 0;
+            }
+        }
+
+        .ultimate__title__wrapper {
+            text-align: center;
+
+            span {
+                font-size: 36px;
+            }
+        }
+
+        .ultimate__subtitle__wrapper {
+            text-align: center;
+
+            span {
+                font-size: 16px;
+            }
+        }
+
+        .addition__text__wrapper {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .ultimate__footer__text__wrapper {
+            text-align: center;
+            margin: 0;
+        }
+
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

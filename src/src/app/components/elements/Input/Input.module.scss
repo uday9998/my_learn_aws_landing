@@ -1,0 +1,32 @@
+.input {
+    max-width: 100%;
+    background: #ffffff;
+    outline: none;
+    border: 1px solid var(--greyscale_10);
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-size: 14px;
+
+    &::placeholder {
+        color: #727978;
+        font-size: 14px;
+    }
+
+    &:focus {
+        box-shadow: 0px 0px 4px #54938b;
+
+        &::placeholder {
+            color: transparent;
+        }
+    }
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 168%;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #131f1e;
+    text-align: start;
+}

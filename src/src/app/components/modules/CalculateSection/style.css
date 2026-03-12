@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+    .mobile-text {
+        width: fit-content !important;
+    }
+    .gradient__text {
+        font-size: 25px !important;
+    }
+}
+
+.gradient__text  {
+    margin: auto;
+}

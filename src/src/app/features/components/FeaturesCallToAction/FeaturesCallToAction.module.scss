@@ -1,0 +1,356 @@
+.ai__content__title__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+
+    @media screen {
+        span {
+            font-size: 30px;
+        }
+    }
+}
+
+.footer__text__wrapper {
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        span {
+            font-size: 16px;
+        }
+    }
+}
+
+.start__button {
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        width: 100%;
+
+        button {
+            width: 100%;
+        }
+    }
+}
+
+.maximize__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        span {
+            font-size: 36px;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}
+
+.title__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}
+
+.monetization__title__wrapper {
+    max-width: 285px;
+    width: 100%;
+
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+        span {
+            font-size: 36px;
+        }
+    }
+}
+
+.list__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}
+
+.start__button__wrapper {
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
+
+.quizzes__wrapper {
+    @media (max-width: 1024px) {
+        span {
+            font-size: 32px;
+        }
+    }
+}
+
+.lets__up {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        }
+
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.faster__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 32px;
+            }
+        }
+
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.landings__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        }
+
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.emails__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.mon__wrapper {
+    @media (max-width: 1024px) {
+        & > div {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+.payments__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.customization__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.community__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.analytics__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.integrations__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.automations__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.affiliate__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        } 
+        
+        .btn__wrapper {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.call__to__action__wrapper {
+    @media (max-width: 1024px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+.mobile__text__wrapper {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
+}
+
+.desktop__text__wrapper {
+    display: block;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}

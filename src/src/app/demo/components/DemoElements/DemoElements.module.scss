@@ -1,0 +1,18 @@
+.book__demo__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    & > div {
+        width: 100%;
+    }
+
+    .book__demo__wrapper {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}

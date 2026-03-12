@@ -1,0 +1,17 @@
+.text__wrapper {
+   @media (max-width: 1024px) {
+        flex-direction: column;
+   }
+}
+
+
+
+.block__wrapper {
+    @media (max-width: 1024px) {
+        padding-left: 7px;
+
+        .second__text__wrapper {
+            flex-direction: column;
+        }
+    }
+}

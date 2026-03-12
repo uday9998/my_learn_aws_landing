@@ -1,0 +1,24 @@
+.help__wrapper {
+    background-image: url(../../../assets/images/HelpBackground.png);
+    background-size: cover;
+
+    .help__inner__wrapper {
+        padding-bottom: 118px;
+
+        @media (max-width: 1024px) {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.animated__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}
+
+.media {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}

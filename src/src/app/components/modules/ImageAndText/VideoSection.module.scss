@@ -1,0 +1,109 @@
+.membership__wrapper {
+    background-color: #f8fafa;
+
+    .membership__section__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1605px;
+        margin: 80px auto;
+
+        @media (max-width: 1024px) {
+            margin: 40px auto;
+        }
+    
+        .text__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+
+            @media (max-width: 1024px) {
+                gap: 0;
+            }
+    
+            .top__texts {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+
+                span {
+                    font-family: 'Fixel Variable', sans-serif;
+                }
+    
+                &.bottom {
+                    margin-bottom: 60px;
+
+                    @media (min-width: 350px) {
+                        margin-bottom: 15px;
+                    }
+                }
+
+                @media (min-width: 350px) {
+                    width: 340px;
+                    span:nth-child(1) {
+                        font-size: 20px !important;
+                    }
+
+                    span:nth-child(2) {
+                        letter-spacing: -1px;
+                        font-size: 28px !important;
+                    }
+                }
+
+                @media (min-width: 375px) {
+                    width: 370px;
+                }
+
+                @media (min-width: 1024px) {
+                    width: 680px;
+                    
+                    span:nth-child(1) {
+                        font-size: 40px !important;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: 52px !important;
+                        letter-spacing: -2px;
+                    }
+                }
+            }
+
+            .last__text__wrapper {
+                span {
+                    font-family: 'Fixel Regular', sans-serif;
+                    font-size: 24px !important;
+                }
+                @media (max-width: 1024px) {
+                    margin-bottom: 32px;
+                    
+                    span {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+
+        .column__element {
+            padding: 0 20px;
+            
+            @media (max-width: 1024px) {
+                display: none;
+            }
+        }
+
+        .column__images {
+            display: none;
+
+            @media (max-width: 1024px) {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                padding: 0 0 0 30px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,24 @@
+.expire__block {
+    background: #ffffff;
+    box-shadow: 0px 0px 3.08571px rgba(19, 31, 30, 0.1);
+    border-radius: 28px;
+    transform: rotate(3.38deg);
+    padding: 8px;
+    &__text {
+        background: linear-gradient(90deg, #8f5cff 0%, #fba27d 100%);
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+}
+
+.expire__section {
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
+}
+
+.title {
+    @media screen and (max-width: 1024px) {
+        font-size: 30px !important;
+    }
+}

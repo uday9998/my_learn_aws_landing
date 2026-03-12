@@ -1,0 +1,130 @@
+.title__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}
+
+.subtitle__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+}
+
+.btn__wrapper {
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+}
+
+.list__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+        font-weight: 600;
+    }
+}
+
+.main__wrapper {
+    @media (max-width: 1024px) {
+        padding: 80px 10px;
+
+        & > div {
+            padding: 0;
+        }
+
+        .img__text__wrapper {
+            flex-direction: column;
+        }
+
+        .text__wrapper {
+            padding: 0;
+
+            .title__wrapper {
+                span {
+                    font-size: 36px;
+                }
+            }
+
+            .subtitle__wrapper {
+                span {
+                    font-size: 16px;
+                }
+            }
+
+            .btn__wrapper {
+                width: 100%;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.manage__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;   
+
+        & > div {
+            padding: 0;
+        }
+
+        .title__wrapper {
+            span {
+                font-size: 36px;
+            }
+        }
+
+        .subtitle__wrapper {
+            span {
+                font-size: 16px;
+            }
+        }
+
+        .btn__wrapper {
+            width: 100%;
+            margin-bottom: 25px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.check__wrapper {
+    @media (max-width: 1024px) {
+        & > div {
+            padding-top: 30px;
+        }
+        
+        .title__wrapper {            
+            span {
+                font-size: 36px !important;
+            }
+        }
+
+        .subtitle__wrapper {
+            span {
+                font-size: 20px !important;
+                line-height: 150% !important;
+            }
+        }
+
+        .checklist__wrapper {
+            flex-direction: column;
+            max-width: 315px;
+            width: 100%;
+        }
+    }
+}

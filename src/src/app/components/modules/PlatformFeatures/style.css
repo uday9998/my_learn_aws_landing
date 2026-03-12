@@ -1,0 +1,25 @@
+.plartform {
+    font-family: 'Fixel Variable', sans-serif !important; 
+}
+
+.small-text {
+    font-family: "Fixel Regular", sans-serif !important;
+}
+
+.fontSize {
+    font-size: 16px !important;
+    padding: 0 !important;
+}
+
+.line-height {
+    line-height: normal;
+}
+
+
+
+@media (max-width: 1024px) {
+    .convert {
+        font-size: 28px !important;
+        line-height: 30px !important;
+    }
+}

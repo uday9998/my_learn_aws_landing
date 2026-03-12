@@ -1,0 +1,130 @@
+.problem__section__top__wrapper {
+    display: flex;
+
+    @media (min-width: 1025px) {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        overflow: hidden;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        max-width: 1280px;
+        margin: 0px auto;
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center;
+    }
+
+    .problem__section__top__wrapper__inner {
+        @media (min-width: 1025px) {
+            position: relative;
+            width: 50%;
+        }
+    
+        @media (max-width: 1024px) {
+            display: flex;
+            padding-left: 61px;
+            padding-right: 16px;
+            position: relative;
+            flex-direction: column;
+        }
+    }
+
+    .desktop__wrapper {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .mobile__wrapper {
+        @media (min-width: 1025px) {
+            display: none;
+        }
+    }
+}
+
+.problem__section {
+    
+    @media (min-width: 1025px) {
+        * {
+            position: relative;
+            z-index: 5;
+        }
+    }
+}
+
+.proble__section__image {
+    min-height: 729px;
+    object-fit: contain;
+}
+
+.proble__star {
+    z-index: 1;
+    top: -150px;
+    left: -100px;
+    position: absolute;
+}
+
+.problem__section__left {
+    @media (min-width: 1025px) {
+        margin-left: 90px;
+    }
+}
+
+.start__problem {
+    position: absolute;
+    left: -90px;
+}
+
+.only__text {
+    @media (min-width: 1025px) {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #444c4b;
+        font-family: "Lato";
+        span {
+            font-weight: 800;
+        }
+    }
+}
+
+.only__text__mobile {
+    @media (max-width: 1024px) {
+        font-weight: 400;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 148%;
+        span {
+            font-weight: 600;
+        }
+        color: #727978;  
+        z-index: 1; 
+    }
+}
+
+.problem__image {
+    @media (min-width: 1025px) {
+        width: 50%;
+    }
+}
+
+.footer__text__wrapper {
+    span {
+        @media (min-width: 1024px) {
+            font-size: 24px;
+            line-height: 140%;
+            color: #444C4B;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 16px;
+            line-height: 148%;
+            color: #727978;
+        }
+    }
+}

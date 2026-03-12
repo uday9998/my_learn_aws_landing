@@ -1,0 +1,186 @@
+.welcome__wrapper {
+    background-image: url('../../../assets/images/welcome__section__image.png');   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafa;
+
+    .header__texts__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: 350px) {
+            width: 340px;
+            span:first-child {
+                font-size: 20px;
+                font-family: 'Fixel Variable', sans-serif;
+            }
+
+            span:nth-child(2) {
+                font-size: 28px;
+                font-family: 'Fixel Variable', sans-serif;
+                letter-spacing: -1px;
+            }
+
+            span:nth-child(3) {
+                font-size: 16px !important;
+                font-family: 'Fixel Regular', sans-serif;
+            }
+        }
+
+        @media (min-width: 750px) {
+            width: 425px;
+
+            span:first-child {
+                font-size: 32px;
+            }
+
+            span:nth-child(2) {
+                font-size: 35px;
+            }
+
+            span:nth-child(3) {
+                font-size: 20px !important;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            width: 781px;
+
+            span:nth-child(2) {
+                letter-spacing: -2px;
+            }
+        }
+
+        @media (min-width: 1190px) {
+            span:first-child {
+                font-size: 40px;
+            }
+
+            span:nth-child(2) {
+                font-size: 52px;
+            }
+
+            span:nth-child(3) {
+                font-size: 24px !important;
+            }
+        }
+    }
+
+    .image__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 160px;
+
+        @media (max-width: 1020px) {
+            margin-left: 0;
+        }
+
+        .image__text__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // margin-top: 40px;
+
+            span {
+                font-family: 'Fixel Regular', sans-serif;
+            }
+
+            @media (min-width: 350px) {
+                width: 321px;
+
+
+                span {
+                    font-size: 16px !important;
+                }
+            }
+
+            @media (min-width: 700px) {
+                width: 380px;
+
+                span {
+                    font-size: 20px !important;
+                }
+            }
+
+            @media (min-width: 1025px) {
+                width: 670px;
+            }
+
+            @media (min-width: 1190px) {
+                span {
+                    font-size: 24px !important;
+                }
+            }
+        }
+    }
+
+    .desktop__subtitle__wrapper {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .sub__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto 24px;
+        max-width: none;
+
+        @media (max-width: 1024px) {
+            max-width: 80%;
+        }
+
+        span {
+            @media (min-width: 1024px) {
+                font-size: 54px;
+            }
+
+            @media (max-width: 1024px) {
+               font-size: 36px;
+            }
+        }
+    }
+
+    .fotter__text__wrapper {
+        span {
+            @media (min-width: 1025px) {
+                max-width: 628px;
+                font-weight: 400;
+                line-height: 150%;
+                font-size: 18px;
+            }
+
+            @media (max-width: 1024px) {
+                max-width: 90%;
+                font-weight: 400;
+                line-height: 148%;
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (min-width: 350px) {
+        padding: 40px 70px 0 70px;
+    }
+
+    span {
+        @media (min-width: 1025px) {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 28px;
+        }
+    }
+}
+

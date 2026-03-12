@@ -1,0 +1,36 @@
+.card__wrapper {
+    margin-right: 24px;
+    width: 471px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    height: 438px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .avatar__info__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .avatar__info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+
+    .texts__wrapper {
+        height: 264px;
+
+        span {
+            -webkit-line-clamp: 11; 
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: 'Fixel Regular', sans-serif;
+        }
+    }
+}

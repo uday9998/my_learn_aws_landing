@@ -1,0 +1,16 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: repeat(2, 45%);
+        gap: 40px;
+        & > div:first-child {
+            grid-column: span 2;
+        }
+
+        & > div {
+            align-items: flex-start!important;
+        }
+    }
+}

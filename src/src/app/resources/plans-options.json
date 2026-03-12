@@ -1,0 +1,651 @@
+[
+    {
+        "title": "AI Capability",
+        "options": [
+            {
+                "title": "Write Outline",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Create Comments",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Write Emails With AI",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Create Titles and Names",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Products",
+        "options": [
+            {
+                "title": "Unlimited Products",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Unlimited Communities",
+                "essential": "1 Community",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Custom Thank You Pages",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Customizable School Themes",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Customizable School Room",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Category Sections",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Add Faqs & Terms Pages",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Customize Other Pages",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Custom Filters",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Seo Meta-Data",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Websites",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "Unlimited"
+            }
+        ]
+    },
+    {
+        "title": "Payments",
+        "options": [
+            {
+                "title": "Checkout Pages",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "0% Processing Fees",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Pay What You Want Pricing",
+                "essential": "Coming Soon",
+                "surge": "Coming Soon",
+                "infinity": "Coming Soon"
+            },
+            {
+                "title": "Sales And Vax Support",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Multiple Payment Options",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Subscription Capability",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Custom Checkout Fields",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Accept All Credit & Debit Cards",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Accept Paypal",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Free Trials",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Order Bumps",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Upsell / Downsell",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Member Management",
+        "options": [
+            {
+                "title": "CRM Capabilities",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "School Hub",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "User Profiles & Pages",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Import Contacts",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Export Contacts",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Reporting & Analytics",
+        "options": [
+            {
+                "title": "Sales Reporting",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "UTM Tracking",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Exports",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Subscription Metrics",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Progress Metrics",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Video Metrics",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Email Metrics",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Video",
+        "options": [
+            {
+                "title": "High-Quality Video Player",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Resume Watching",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Autoplay Next Video",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Caption And Titles",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Video Speed Adjustment",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Picture In Picture",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Change Quality",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Drip Content",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Live Integration",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Video Storage",
+                "essential": "40GB",
+                "surge": "200GB",
+                "infinity": "Unlimited Storage"
+            },
+            {
+                "title": "Unlimited Products",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Build In Player With Bookmarks & Notes",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Support",
+        "options": [
+            {
+                "title": "Help Center",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Email Support",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Dedicated Account Manager",
+                "essential": "not-contain",
+                "surge": "not-contain",
+                "infinity": "include"
+            },
+            {
+                "title": "1 on 1 Onboarding Calls",
+                "essential": "1 Call",
+                "surge": "1 Call",
+                "infinity": "VIP Support"
+            },
+            {
+                "title": "99.9% Uptime",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Migration",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "SSL Certificate",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Full Control & Ownership Of Data",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Encryption",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Miestro University",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Communities",
+        "options": [
+            {
+                "title": "Member Profiles",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Direct Messaging",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "In-app Notifications",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Group Profile",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Weekly Digest",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Spaces",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Events",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "WhiteLabel",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Encryption",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Customization",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Custom Domains",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Notify Members",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Instructor & Moderators",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Integrations",
+        "options": [
+            {
+                "title": "Integrations Via Zapier",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Google Tag Manager",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Order & Tracking Conversion",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Stripe/ Paypal Integration",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "API",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Webhooks",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Marketing Tools",
+        "options": [
+            {
+                "title": "Upsell / Downsell Capabilites",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Affiliate Program",
+                "essential": "not-contain",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Unlimited Coupons",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Certificates",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Blog Capabilites",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Landing Page Builder",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Email Marketing",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Customize Checkout Experience",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Order Bumps",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Student Quizzes",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Automations",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Zoom Integration",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    },
+    {
+        "title": "Usage",
+        "options": [
+            {
+                "title": "Users",
+                "essential": "2,000 Users",
+                "surge": "10,000 Users",
+                "infinity": "Unlimited Users"
+            },
+            {
+                "title": "Media Library",
+                "essential": "40GB",
+                "surge": "200GB",
+                "infinity": "Unlimited Storage"
+            },
+            {
+                "title": "White Label Branding",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Global CDN",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Uploading & Encoding",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Upload Audio, Assets, Resources",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            },
+            {
+                "title": "Custom Domain",
+                "essential": "include",
+                "surge": "include",
+                "infinity": "include"
+            }
+        ]
+    }
+]

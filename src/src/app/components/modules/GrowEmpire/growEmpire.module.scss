@@ -1,0 +1,171 @@
+.grow__empire__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://miestro-production.s3.us-west-2.amazonaws.com/landing/miestro-landing-nextjs/grow__empire__background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+
+    @media (max-width: 1024px) {
+        padding: 40px 0;
+    }
+
+    .price__page__title__wrapper {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .second__title__wrapper {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .price__title {
+        display: none;
+        @media (max-width: 1024px) {
+            display: block;
+            font-size: 32px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Fixel Variable', sans-serif;
+            width: 303px;
+        }
+    }
+
+    .title__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span {
+            font-family: 'Fixel Variable', sans-serif;
+            letter-spacing: -1px;
+            line-height: 124%;
+        }
+
+        .inner__wrapper {
+            text-align: center;
+            max-width: 850px;
+        }
+
+        @media (max-width: 1024px) {
+            span {
+                font-size: 32px;
+                letter-spacing: -1px;
+            }
+        }
+    }
+
+    .subtitle__wrapper {
+        max-width: 690px;
+        margin-top: 8px;
+        text-align: center;
+
+        .description__text {
+            font-size: 24px;
+            font-family: 'Fixel Regular', sans-serif;
+            color: #fff;
+
+            span {
+                font-weight: bold;
+                font-size: 24px;
+                font-family: 'Fixel Regular', sans-serif;
+                color: #fff;
+            }
+
+            @media (max-width: 1024px) {
+                font-size: 16px;
+
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        span {
+            font-family: 'Fixel Regular', sans-serif;
+            font-size: 24px;
+        }
+
+        @media (max-width: 1024px) {
+            max-width: 343px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .buttons__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 25.5px;
+        margin-top: 32px;
+
+        button {
+            font-family: 'Fixel Bold', sans-serif;
+        }
+
+        svg {
+            path {
+                fill: #fff;
+            }
+        }
+
+        .radial__button__wrapper {
+            box-shadow: 0 0 5px 3px rgb(133, 188, 133);
+            width: 220px;
+            height: 55px;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            .background__wrapper {
+                position: absolute;
+                width: 100%;
+                border-radius: 12px;
+                height: 100%;
+                background-image: radial-gradient(#408171, #75A87A, #91E499, #CFE491);
+
+                .button__wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    width: 100%;
+                    height: 100%;
+
+                    span {
+                        color: #24554E;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Fixel Bold', sans-serif;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            width: 290px;
+            flex-direction: column;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .price__page__button {
+        @media (max-width: 1024px) {
+            width: 343px;
+        }
+    }
+}

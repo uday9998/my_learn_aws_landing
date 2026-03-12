@@ -1,0 +1,75 @@
+.about__section__wrapper {
+    background-image: url(../../../../../assets/images/aboutBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.zigzag__text {
+    background: linear-gradient(90deg, #8f5cff 0%, #da8d6d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.zigzag__line__text {
+    background: linear-gradient(90deg, #36796f 0%, #7cae7b 100%),
+        linear-gradient(90deg, #8f5cff 0%, #da8d6d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.text-styles {
+    @media screen and (max-width: 1300px) {
+        span {
+            font-size: 30px !important;
+        }
+        svg {
+            width: 100%;
+        }
+    }
+    font-family: "Lato";
+}
+
+.about__block {
+    background: #252525;
+    overflow: hidden;
+    background-repeat: no-repeat !important;
+    background-size: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 48px;
+    @media screen and (max-width: 1024px) {
+        max-width: 343px !important;
+    }
+}
+
+.netflix__gradient__text {
+    background: linear-gradient(90deg, #36796f 0%, #7cae7b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    word-wrap: break-word;
+    text-fill-color: transparent;
+}
+
+.products__block__status {
+    background: linear-gradient(
+        102.37deg,
+        #ff89d0 11.21%,
+        #fd94bb 26.88%,
+        #ebef18 151.52%
+    );
+    border-radius: 20px;
+    transform: rotate(4.34deg);
+    max-width: max-content;
+    padding: 8px 20px;
+}
+
+#generate-ai-animation {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 48px;
+    overflow: hidden;
+}

@@ -1,0 +1,109 @@
+.privacy__content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 50px;
+    ul {
+        list-style-type: disc;
+    }
+}
+
+.content__item {
+    &__title {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+.content__section__title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.content__item__list__item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444c4b;
+    line-height: 160%;
+    a {
+        color: #3060bd;
+    }
+}
+
+.content__item__description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444c4b;
+    line-height: 160%;
+    a {
+        text-decoration: underline;
+        word-wrap: break-word;
+        transition: 0.2s;
+        &:hover {
+            color: #3060bd;
+        }
+    }
+}
+
+.privacy__yelow {
+    border-left: 4px solid;
+    padding-left: 32px;
+    border-radius: 4px solid;
+    border-image-width: 100% 0px 0px 4px;
+    border-image-source: linear-gradient(
+        179.81deg,
+        #dded7c -12.68%,
+        #cfff91 139.28%
+    );
+    &__text {
+        background: linear-gradient(
+            179.81deg,
+            #f3ffa9 -12.68%,
+            #e7ffc8 139.28%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    display: flex;
+    gap: 32px;
+    align-items: stretch;
+    svg {
+        height: 100%;
+    }
+}
+
+.contact__us {
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        margin-top: 0px;
+        &__block {
+            span {
+                font-size: 16px !important;
+            }
+        }
+    }
+    @media screen and (max-width: 450px) {
+        &__block {
+            span {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+.terms__yellow__section {
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
+}

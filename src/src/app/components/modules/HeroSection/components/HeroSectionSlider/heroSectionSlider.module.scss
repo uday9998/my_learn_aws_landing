@@ -1,0 +1,55 @@
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 28s;
+
+@keyframes scrollToLeft {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-1640px) }
+}
+
+@keyframes scrollToRight {
+	0% { transform: translateX(-1640px) }
+	100% { transform: translateX(0);}
+}
+
+.slider {
+    overflow: hidden;
+    width: 720px;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    .slide__track {
+        display: flex;
+        gap: 10px;
+    }
+
+    .slide__track {
+		animation: scrollToLeft $animationSpeed linear infinite;
+		display: flex;
+        width: 100%;
+
+        img {
+            height: 210px;
+        }
+	}
+
+    .slide__track__center {
+        animation: scrollToRight $animationSpeed linear infinite;
+		display: flex;
+        width: 100%;
+        gap: 10px;
+
+        img {
+            height: 210px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        width: 343px;
+    }
+}

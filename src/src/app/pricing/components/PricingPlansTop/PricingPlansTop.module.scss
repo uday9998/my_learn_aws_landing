@@ -1,0 +1,65 @@
+.pricing__plans__switch {
+    background: #14181F;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 24px 24px;
+    gap: 16px;
+    isolation: isolate;
+    position: relative;
+
+    &__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.pricing__top__items {
+    @media screen and (max-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+
+        & > .pricing__plans__switch {
+            grid-column: 1/ 4;
+        }
+
+        .plan_badge {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 701px) {
+        .pricing__free__tryal_button {
+            display: none;
+        }
+    }
+}
+
+.wrapper {
+    gap: 16px;
+
+    @media (max-width: 1024px) {
+        gap: 0;
+
+        button {
+            margin-top: 16px;
+
+            @media (max-width: 701px) {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+.customer1 {
+    margin-right: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 80%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &__title {
+        background: linear-gradient(89.99deg, #8F5CFF -43.92%, #DA8D6D 180.58%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: 'Bevan' !important;
+    }
+}
+
+.customer2 {
+    margin-left: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 80%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &__title {
+        background: linear-gradient(97.55deg, #FD76C7 12.08%, #FF72A6 41.67%, #F2F706 277.11%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: 'Berkshire Swash' !important;
+    }
+}
+
+.customer3 {
+    margin-right: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 80%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &__title {
+        background: linear-gradient(90deg, #3AAAB1 0%, #7CAE7B 158.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: 'Bubblegum Sans' !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .customer1, .customer2, .customer3 {
+        width: 100%;
+        max-width: none;
+        flex-direction: column;
+        gap: 24px;
+        padding: 16px;
+        & > img {
+            max-width: 40%;
+        }
+
+        & > div {
+            padding: 0;
+        }
+    }
+}
+
+.mobile__wrapper {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
+
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+        color: #131F1E;
+        text-align: center;
+    }
+}
+
+.desktop__wrapper {
+    display: block;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}
+
+.footer__text__wrapper {
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+
+        @media (max-width: 1024px) {
+            font-size: 18px;
+            color: #727978;
+            text-align: center;
+        }
+    }
+}

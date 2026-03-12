@@ -1,0 +1,17 @@
+.form__wrapper {
+    @media (max-width: 1024px) {
+        padding: 0 30px;
+        width: 370px;
+    }
+}
+
+.google__button {
+    border: 1px solid #24554E;
+    border-radius: 12px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}

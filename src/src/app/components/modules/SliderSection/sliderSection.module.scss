@@ -1,0 +1,11 @@
+.slider__wrapper {
+    font-family: 'Fixel Variable', sans-serif !important;
+    padding: 60px 0 80px 0;
+    background-color: #f8fafa;
+    width: 100%;
+    overflow: hidden;
+
+    & > div > div > div {
+        display: flex;
+    }
+}

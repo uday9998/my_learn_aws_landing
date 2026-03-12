@@ -1,0 +1,120 @@
+.persons__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 25px;
+    background-image: url(../../../assets/images/dashboard/persons__background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+    .modal__close {
+        position: absolute;
+        top: 64px;
+        right: 56px;
+        color: #fff;
+        font-size: 21px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    @media (max-width: 1024px) {
+        & > div > div:nth-child(2) {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .persons__container {
+        max-width: 1605px;
+        margin: 0 auto;
+
+        .texts__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            span {
+                font-family: 'SubFixel Variable', sans-serif;
+            }
+
+            span:nth-child(2) {
+                font-size: 24px;
+            }
+
+            span:nth-child(3) {
+                font-size: 24px;
+            }
+
+            .persons__subtitle__wrapper {
+                span {
+                    font-size: 24px;
+
+                    @media (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .title__wrapper {
+                margin-bottom: 24px;
+                @media (max-width: 1024px) {
+                    margin-bottom: 0;
+                }
+
+                span {
+                    font-family: 'Fixel Variable', sans-serif;
+                }
+
+                @media (max-width: 1024px) {
+                    span {
+                        font-size: 25px;
+                        letter-spacing: -1px;
+                        line-height: 153%;
+                    }
+                }
+
+                @media (min-width: 1024px) {
+                    span {
+                        letter-spacing: -2px;
+                        line-height: 124%;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                span {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .blocks__wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 66px;
+            margin-top: 32px;
+
+            div {
+                cursor: pointer;
+                transition: .4s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+
+            @media (max-width: 1024px) {
+                flex-direction: column;
+                margin-top: 32px;
+                align-items: center;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        padding: 45px 25px 80px 25px;
+    }
+}

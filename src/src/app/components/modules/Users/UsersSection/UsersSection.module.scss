@@ -1,0 +1,57 @@
+.users__section__wrapper {
+    background: url(../../../../assets/images/UsersBackground.png);
+    height: 1144px;
+    backgroundSize: contain;
+    backgroundColor: #fff;
+    backgroundRepeat: no-repeat;
+    backgroundPosition: center bottom;
+
+    .text__center {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 56%;
+        @media screen and (max-width: 1300px) {
+            span {
+                font-size: 40px !important;
+            }
+            top: 60%;
+        }
+        @media screen and (max-width: 1024px) {
+            top: 55%;
+        }
+    }
+    
+    .users__middle {
+        width: 80%;
+        @media screen and (max-width: 1300px) {
+            width: 90%;
+        }
+        @media screen and (min-width: 1500px) {
+            width: 70%;
+        }
+        @media screen and (min-width: 1800px) {
+            width: 60%;
+        }
+        @media screen and (min-width: 2000px) {
+            width: 50%;
+        }
+        @media screen and (min-width: 2300px) {
+            width: 45%;
+        }
+    }
+    
+    .users__bottom {
+        width: 100%;
+        margin: 0px auto;
+        @media screen and (min-width: 1500px) {
+            width: 90%;
+        }
+        @media screen and (min-width: 2000px) {
+            width: 80%;
+        }
+        @media screen and (min-width: 2300px) {
+            width: 75%;
+        }
+    }
+    
+}

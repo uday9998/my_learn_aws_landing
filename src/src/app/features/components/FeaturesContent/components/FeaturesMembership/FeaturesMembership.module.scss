@@ -1,0 +1,124 @@
+.title__wrapper {
+    span {
+        font-family: 'Fixel Variable', sans-serif;
+    }
+}
+
+.btn__wrapper {
+    button {
+        font-size: 16px;
+        font-family: 'Fixel Bold', sans-serif;
+    }
+}
+
+.subtitle__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+    }
+}
+
+.list__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    span {
+        font-family: 'SubFixel Variable', sans-serif;
+        font-weight: 600 !important;
+    }
+}
+
+.top__main__wrapper {
+    @media (max-width: 1024px) {
+        padding: 80px 10px;
+
+        .img__text__wrapper {
+            flex-direction: column;
+        }
+
+        & > div {
+            padding: 0;
+        }
+
+        .left__padding {
+            padding: 0;
+
+            .title__wrapper {
+                span {
+                    font-size: 36px;
+                }
+            }
+
+            .subtitle__wrapper {
+                span {
+                    font-size: 16px;
+                }
+            }
+
+            .btn__wrapper {
+                width: 100%;
+                
+                button {
+                    width: 100%;
+                }
+            }
+        }
+
+        .simple__wrapper {
+            flex-direction: column;
+
+            & > div {
+                padding: 0;
+            }
+
+            .title__wrapper {
+                span {
+                    font-size: 36px;
+                }
+            }
+
+            .subtitle__wrapper {
+                span {
+                    font-size: 16px;
+                }
+            }
+
+            .btn__wrapper {
+                width: 100%;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.with__miestro__wrapper {
+    @media (max-width: 1024px) {
+        padding: 80px 10px;
+
+        .title__wrapper {
+            span {
+                font-size: 36px !important;
+            }
+        }
+
+        .subtitle__wrapper {
+            span {
+                font-size: 20px !important;
+                line-height: 150%;
+            }
+        }
+
+        .check__wrapper {
+            flex-direction: column;
+            max-width: 315px;
+            width: 100%;
+        }
+    }
+}

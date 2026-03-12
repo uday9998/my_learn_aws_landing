@@ -1,0 +1,103 @@
+.powered__by__section__wrapper {
+    @media (min-width: 1025px) {
+        padding-bottom: 140px;
+        margin-top: -80px;
+    }  
+
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__texts__wrapper {
+        @media (min-width: 1025px) {
+           width: 41%;
+           margin-left: -40px;
+           z-index: 10;
+        } 
+
+        @media (max-width: 1024px) {
+            align-items: center;
+            width: 100%;
+        }
+
+        .title__text__wrapper {
+            span {
+                @media (min-width: 1025px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .subitle__wrapper {
+            span {
+                font-weight: 400;
+
+                @media (min-width: 1025px) {
+                    font-size: 20px;
+                    line-height: 160%;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 16px;
+                    color: #727978;
+                    text-align: center;
+                    line-height: 148%;
+                    
+                }
+            }
+        }
+
+        .second__title__wrapper {
+            span {
+                @media (min-width: 1025px) {
+                    font-size: 24px;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .second__subtitle__wrapper {
+            span {
+                @media (min-width: 1025px) {
+                    font-size: 20px;
+                    line-height: 160%;
+                    font-weight: 400;
+                }
+
+                @media (max-width: 1024px) {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #727978;
+                    line-height: 148%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.desktop__icon {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.background__shadow__wrapper {
+    position: absolute;
+
+    left: -30%;
+    bottom: -100%;
+
+    @media (max-width: 1024px) {
+        right: 0;
+        bottom: -40%;
+    }
+}

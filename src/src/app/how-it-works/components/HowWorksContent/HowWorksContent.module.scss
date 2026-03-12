@@ -1,0 +1,29 @@
+.how__work__content {
+    background-color: #1b3c36;
+}
+
+.how__work__item {
+    &__title {
+        background: linear-gradient(90deg, #36796F 0%, #7CAE7B 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    }
+}
+
+.main__container.how_works_wrapper {
+    min-width: auto !important;
+
+    @media (max-width: 1070px) {
+        max-width: max-content;
+        padding: 0px 20px;
+    }
+}
+
+.main__container {
+    max-width: 1062px;
+    min-width: 1062px;
+    margin: 0px auto;
+}

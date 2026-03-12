@@ -1,0 +1,19 @@
+.about__us__wrapper {
+    background: #FAFBFC;
+}
+
+.mobile__wrapper {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block; 
+    }
+}
+
+.desktop__wrapper {
+    display: block;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}

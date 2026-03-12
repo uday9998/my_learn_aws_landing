@@ -1,0 +1,6 @@
+.help__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        gap: 105px;
+    }
+}

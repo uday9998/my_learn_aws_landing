@@ -1,0 +1,40 @@
+.mobile__wrapper {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: flex;
+
+        svg {
+            display: block;
+        }
+    }
+}
+
+.mobile__navigation__modal {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    transition: 0.3s ease;
+    background: #f4f7f7;
+    height: 100vh;
+    z-index: 999;
+}
+
+.home__modal__logo {
+    z-index: 1000;
+}
+
+.home__icon__line {
+    border: 1.5px solid #2f2f2f;
+}
+
+.home__modal__logo  {
+
+    @media (max-width: 1024px) {
+        img {
+            width: 120px !important;
+        } 
+    }
+    
+}

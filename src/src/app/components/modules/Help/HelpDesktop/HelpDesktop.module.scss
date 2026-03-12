@@ -1,0 +1,25 @@
+.help__section__wrapper {
+    background-image: url(../../../../assets/images/HelpBackground.png);
+    background-size: cover;
+
+    .section__wrapper {
+        @media (min-width: 1025px) {
+            padding-bottom: 118px;
+        }
+        @media (max-width: 1024px) {
+            padding-bottom: 80px;
+        }
+    }
+}
+
+.animation__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}
+
+.second__animation__wrapper {
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}

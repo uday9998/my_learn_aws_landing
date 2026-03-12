@@ -1,0 +1,16 @@
+.desktop__wrapper {
+    display: block;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.mobile__wrapper {
+    display: none;
+    padding: 0 10px 80px 10px;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
+}

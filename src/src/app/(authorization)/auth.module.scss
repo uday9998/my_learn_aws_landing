@@ -1,0 +1,145 @@
+.title__wrapper {
+    // Mobile-first approach
+    @media (max-width: 1023px) {
+        width: 100%;
+        justify-content: normal !important;
+    }
+}
+
+.auth__right__wrapper {
+    background-image: url(../../app/assets/images/SignInUpBgPersons.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // Ultra-wide screens
+    @media (min-width: 2000px) and (max-width: 2710px) {
+        background-position: bottom;
+    }
+
+    // Tablet and below - show as a smaller section instead of hiding
+    @media (max-width: 1023px) {
+        // Don't hide completely on mobile, but make it smaller
+        min-height: 200px;
+        background-position: center top;
+        
+        // Hide only on very small screens
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .text__wrapper {
+        // Mobile styles
+        @media (max-width: 767px) {
+            padding: 1rem;
+            
+            h2 {
+                font-size: 1.125rem !important;
+                line-height: 1.4;
+            }
+        }
+
+        // Tablet styles
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: 1.5rem;
+            
+            h2 {
+                font-size: 1.25rem !important;
+                line-height: 1.4;
+            }
+        }
+
+        // Small desktop
+        @media (min-width: 1025px) and (max-width: 1100px) {
+            padding-top: 70px;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            h2 {
+                font-size: 23px;
+            }
+        }
+
+        // Medium desktop
+        @media (min-width: 1101px) and (max-width: 1240px) {
+            padding-top: 59px;
+            padding-left: 70px;
+            padding-right: 70px;
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        // Large desktop
+        @media (min-width: 1241px) and (max-width: 1500px) {
+            padding-top: 55px;
+            padding-left: 120px;
+            padding-right: 120px;
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        // Extra large desktop
+        @media (min-width: 1501px) and (max-width: 1700px) {
+            padding-top: 55px;
+            padding-left: 180px;
+            padding-right: 180px;
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        // Very large desktop
+        @media (min-width: 1701px) {
+            padding-top: 55px;
+            padding-left: 220px;
+            padding-right: 220px;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+// Additional responsive utilities
+.miestrologomobile {
+    // Responsive logo sizing
+    @media (max-width: 767px) {
+        height: 2rem;
+        width: auto;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1023px) {
+        height: 2rem;
+        width: auto;
+    }
+    
+    @media (min-width: 1024px) {
+        height: 2rem;
+        width: auto;
+    }
+}
+
+// AnimationCard responsive container
+.animation-card-container {
+    // Ensure the animation card is properly sized on different screens
+    @media (max-width: 767px) {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1023px) {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 1024px) {
+        max-width: 100%;
+    }
+}

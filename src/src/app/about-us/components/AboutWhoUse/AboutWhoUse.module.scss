@@ -1,0 +1,43 @@
+.who__use__wrapper {
+    background-image: url(../../../assets/images/aboutus/whoUse.png); 
+    background-color: #F4F7F7;
+    background-repeat: no-repeat;
+    background-position: left 25% top 0;
+
+    @media (max-width: 1024px) {
+        background-position: center;
+    }
+
+    .who__use__text {
+        margin-top: 105px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 40px;
+        gap: 4px;
+        position: absolute;
+        width: 630px;
+        height: 228px;
+        left: calc(50% - 611px/2 + 227.99px);
+        top: 128.36px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        font-style: normal;
+        transform: rotate(3deg);
+
+        span {
+            font-family: 'Fixel ExtraBold', sans-serif;
+        }
+    
+        @media screen and (max-width: 1024px) {
+            top: -48px;
+            right: 10px;
+            left: auto;
+            transform: rotate(7deg);
+            padding: 12px;
+            width: 100%;
+            max-width: 375px;
+            height: auto;
+        }
+    }
+}
