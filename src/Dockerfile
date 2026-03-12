@@ -61,6 +61,8 @@ RUN adduser --system --uid 1001 nextjs
 
 COPY --from=builder /app/public ./public
 
+RUN touch /app/.env && chown nextjs:nodejs /app/.env
+
 RUN mkdir .next
 RUN chown nextjs:nodejs .next
 
